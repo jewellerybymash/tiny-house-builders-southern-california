@@ -12,13 +12,16 @@
             justify-content: center;
             align-items: center;
             font-family: Arial, sans-serif;
+            padding: 0;
         }
         .container {
-            width: 80%; /* Adjust the width as needed */
-            max-width: 1000px; /* Optional max width */
+            width: 100%; /* Full width of the screen */
+            max-width: 1200px; /* Optional max width */
             padding: 20px;
-            border: 1px solid #ccc; /* Optional border */
-            text-align: justify; /* Adjust text alignment */
+            border: 1px solid #ccc;
+            text-align: justify;
+            box-sizing: border-box; /* Ensures padding doesn't overflow */
+            overflow: auto; /* Ensures no overflow */
         }
     </style>
 </head>
